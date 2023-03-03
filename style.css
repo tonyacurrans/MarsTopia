@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:lavender;
+}
+
+.banner{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: grid;
+    place-items:center;
+    margin-bottom: 2rem;
+}
+
+
+.banner h2{
+    font-size: 60px;
+    font-family: 'Peralta', cursive;
+    color:#fff;
+    font-weight: 900;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, .4);
+}
+
+.banner h2 span {
+    color:#FCCD07;
+}
